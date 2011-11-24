@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by CvPCB (2010-00-09 BZR 23xx)-stable date = Thu 17 Nov 2011 12:13:08 AM EST
+
+BeginCmp
+TimeStamp = /4EBE9C19;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC43EE5;
+Reference = C2;
+ValeurCmp = 100uF;
+IdModule  = CP36V;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC43F30;
+Reference = D1;
+ValeurCmp = Green;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EBE95AE;
+Reference = IC1;
+ValeurCmp = ATTINY85-P;
+IdModule  = SparkFun-DIL08;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EBE92C9;
+Reference = J1;
+ValeurCmp = AVR-ISP-6;
+IdModule  = SparkFun-2X03;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC43DC9;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC43DB8;
+Reference = P2;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC438B1;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC43F37;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC4388C;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = SparkFun-TACTILE-PTH-12MM;
+EndCmp
+
+EndListe

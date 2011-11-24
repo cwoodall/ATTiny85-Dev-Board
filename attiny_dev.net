@@ -1,0 +1,91 @@
+# EESchema Netlist Version 1.1 created  Thu 17 Nov 2011 12:13:08 AM EST
+(
+ ( /4EBE9C19 C1 C1 0.1uF
+  ( 1 GND )
+  ( 2 VCC )
+ )
+ ( /4EC43EE5 CP36V C2 100uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4EC43F30 LED-5MM D1 Green
+  ( 1 VCC )
+  ( 2 N-000002 )
+ )
+ ( /4EBE95AE SparkFun-DIL08 IC1 ATTINY85-P
+  ( 1 /1 )
+  ( 2 /2 )
+  ( 3 /3 )
+  ( 4 GND )
+  ( 5 /8 )
+  ( 6 /7 )
+  ( 7 /6 )
+  ( 8 VCC )
+ )
+ ( /4EBE92C9 SparkFun-2X03 J1 AVR-ISP-6
+  ( 1 /7 )
+  ( 2 VCC )
+  ( 3 /6 )
+  ( 4 /8 )
+  ( 5 /1 )
+  ( 6 GND )
+ )
+ ( /4EC43DC9 SIL-4 P1 CONN_4
+  ( 1 VCC )
+  ( 2 /6 )
+  ( 3 /7 )
+  ( 4 /8 )
+ )
+ ( /4EC43DB8 SIL-4 P2 CONN_4
+  ( 1 /1 )
+  ( 2 /2 )
+  ( 3 /3 )
+  ( 4 GND )
+ )
+ ( /4EC438B1 R4 R1 10k
+  ( 1 VCC )
+  ( 2 /1 )
+ )
+ ( /4EC43F37 R4 R2 R
+  ( 1 N-000002 )
+  ( 2 GND )
+ )
+ ( /4EC4388C SparkFun-TACTILE-PTH-12MM SW1 SW_PUSH
+  ( 1 GND )
+  ( 2 /1 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}
